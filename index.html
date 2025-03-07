@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+</head>
+<body class="bg-blue-200 min-h-screen flex items-center justify-center">
+    <div class="bg-white shadow-lg rounded-lg p-6 w-96">
+        <div class="mb-4">
+            <input id="city-input" 
+                   type="text" 
+                   placeholder="Enter City Name" 
+                   class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <button id="search-button" 
+                    class="mt-2 w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600">
+                Search
+            </button>
+        </div>
+        <div class="text-center">
+            <h3 id="city-name" class="text-xl font-semibold text-gray-700 mb-2">Canada, Ontario - Toronto</h3>
+            <h4 id="city-time" class="text-gray-500 mb-2">Localtime</h4>
+            <p id="city-temp" class="text-3xl font-bold text-blue-700">13°C</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# Weather App
+ # Weather App
 
 ## Overview
 The Weather App is a web-based application that allows users to check real-time weather conditions for any location worldwide. It provides detailed weather information, including temperature, humidity, wind speed, and more.
